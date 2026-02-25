@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'list.dart';
-void eliminarPelicula(List<Map<String, dynamic>> peliculas) {
+void delete(List<Map<String, dynamic>> peliculas) {
   if (peliculas.isEmpty) {
     print('No hay películas para eliminar.');
     return;
